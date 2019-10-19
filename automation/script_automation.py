@@ -16,5 +16,5 @@ for cmd in path_files:
 	path_write = '../log/'
 	file_write = open(path_write + "log_file.txt", "a+")
 	file_write.write('Script '+ str(cmd)+' rodado as: ' + str(dt.datetime.now()))
-	file_write.write('\n')
+	file_write.write('\n\n')
 	file_write.close()

@@ -1,3 +1,0 @@
-cd Desktop
-ls
-mkdir tst
